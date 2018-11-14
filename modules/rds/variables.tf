@@ -16,7 +16,9 @@ variable "backup_retention_period" {
   default = "14"
 }
 
-variable "db_subnet_group_name" {}
+variable "db_subnet_group_name" {
+  default = "dbSubnet"
+}
 
 variable "tags" {
   type = "map"

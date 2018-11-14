@@ -12,15 +12,15 @@ variable "secret_key" {
 }
 
 variable "name" {
-  default = ""
+  default = "adidasterraformpoc"
 }
 
 variable "env" {
-  default = ""
+  default = "dev"
 }
 
 variable "created_by" {
-  default = ""
+  default = "xyz"
 }
 
 variable "azs" {
@@ -60,7 +60,7 @@ variable "db_subnet_b" {
 ##############S3 ####################
 
 variable "bucket-name" {
-  default = "adidas-terraform"
+  default = "adidaspoc"
 }
 
 variable "ecrname" {
